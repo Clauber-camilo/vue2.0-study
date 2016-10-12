@@ -19,6 +19,11 @@
             <a href="https://github.com/vuejs/vue-router/" target="_blank">vue-router</a> for routing and
             <a href="https://github.com/vuejs/vuex/" target="_blank">vuex</a> for state management.
         </p>
+        <br  />
+        <div class="">
+            <router-link to="/foo">Go to Foo</router-link>
+        </div>
+        <router-view></router-view>
     </div>
 </template>
 
@@ -33,7 +38,9 @@ export default {
 </script>
 
 <style lang="scss">
-    html { height: 100%; }
+    html {
+        height: 100%;
+    }
 
 
     body {
