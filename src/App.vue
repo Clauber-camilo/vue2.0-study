@@ -2,9 +2,11 @@
     <div id="app">
         <!-- <img class="logo" src="./assets/logo.png"> -->
         <header-template></header-template>
-        <div class="container"></div>
+        <div class="container">
+            <router-view></router-view>
+        </div>
         <br  />
-        <router-view></router-view>
+
     </div>
 </template>
 
@@ -27,7 +29,6 @@ export default {
 
     html {
         height: 100%;
-
     }
 
 
