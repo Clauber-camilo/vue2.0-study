@@ -2,7 +2,6 @@
     <div class="">
         <p>
             teste
-            <router-link to="/">Go to Home</router-link>
         </p>
     </div>
 </template>
