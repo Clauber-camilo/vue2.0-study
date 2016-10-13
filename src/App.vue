@@ -3,7 +3,7 @@
         <!-- <img class="logo" src="./assets/logo.png"> -->
         <header-template></header-template>
         <p>
-            Welcome to your Vue.js app!
+            Welcome to your Vue.js!
         </p>
         <p>
             To get a better understanding of how this boilerplate works, check out
