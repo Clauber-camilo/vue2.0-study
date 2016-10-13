@@ -1,7 +1,7 @@
 <template>
     <div id="app">
-        <img class="logo" src="./assets/logo.png">
-        <hello></hello>
+        <!-- <img class="logo" src="./assets/logo.png"> -->
+        <header-template></header-template>
         <p>
             Welcome to your Vue.js app!
         </p>
@@ -28,11 +28,11 @@
 </template>
 
 <script>
-import Hello from './components/Hello'
+import headerTemplate from './components/headerTemplate.vue'
 
 export default {
     components: {
-        Hello
+        headerTemplate
     }
 }
 </script>
