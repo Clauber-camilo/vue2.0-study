@@ -20,16 +20,10 @@ export default {
 
 <style lang="scss">
 
+    @import './sass/base';
+
     $margin: 176;
     $percent-gap: ($margin / 1920 * 100) * 2;
-
-    *,
-    *:before,
-    *:after {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
 
     html {
         height: 100%;
