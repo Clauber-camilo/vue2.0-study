@@ -21,26 +21,28 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 
-.header {
+    @import '../sass/vars';
 
-    height: 50px;
-    background: #1f5060;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;;
-    padding: 0 15px;
+    .header {
 
-    h1 {
-        color: #e5e5e5;
-        font-weight: normal;
-    }
+        height: 50px;
+        background: $color2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;;
+        padding: 0 15px;
 
-    .menu {
-        a {
-            color: #e5e5e5;
-            margin: 0 5px; 
+        h1 {
+            color: $color5;
+            font-weight: normal;
+        }
+
+        .menu {
+            a {
+                color: $color5;
+                margin: 0 5px;
+            }
         }
     }
-}
 
 </style>

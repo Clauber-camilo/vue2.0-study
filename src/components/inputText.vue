@@ -1,5 +1,5 @@
 <template lang="html">
-    <input @input="onInput" type="text" value="">
+    <input class="input-text" @input="onInput" type="text" />
 </template>
 
 <script>
@@ -15,5 +15,13 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="scss" scoped>
+    @import '../sass/vars';
+
+    .input-text {
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid $color1;
+    }
+
 </style>

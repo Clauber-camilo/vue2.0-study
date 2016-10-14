@@ -4,7 +4,7 @@
         <div class="increment-block">
 
             <p>
-                {{total}}
+                Number: <strong>{{total}}</strong>
             </p>
             <button-increment @increment="incrementTotal"></button-increment>
         </div>
@@ -46,5 +46,24 @@ export default {
 
 <style lang="scss">
 
+    @import '../sass/vars';
+    
+    .increment-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            margin: 0 10px;
+
+            strong {
+                color: $color2;
+            }
+        }
+
+    },
+    .text-block {
+        display: flex;
+    }
 
 </style>

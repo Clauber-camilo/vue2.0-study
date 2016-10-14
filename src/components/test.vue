@@ -1,7 +1,7 @@
 <template lang="html">
     <div class="">
         <p>
-            teste
+            componente da rota FOO
         </p>
     </div>
 </template>
