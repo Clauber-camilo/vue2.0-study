@@ -23,9 +23,8 @@ export default {
 <style lang="scss">
 
     @import './sass/base';
-
-    $margin: 176;
-    $percent-gap: ($margin / 1920 * 100) * 2;
+    @import './sass/template';
+    @import './sass/vars';
 
     html {
         height: 100%;
@@ -56,34 +55,5 @@ export default {
         height: 100px
     }
 
-    .container {
-        margin-right: auto;
-        margin-left: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        @media screen and (min-width: 768px) {
 
-                width: 750px;
-
-        }
-        @media screen and (min-width: 992px) {
-
-                width: 970px;
-
-        }
-        @media screen and (min-width: 1200px) {
-
-                width: 1170px;
-
-        }
-
-        &--big {
-            width: calc(100% - #{$percent-gap * 1%});
-
-            @media screen and (max-width: 992px) {
-                width: 100%;
-            }
-        }
-
-    }
 </style>
